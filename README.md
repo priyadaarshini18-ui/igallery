@@ -28,6 +28,7 @@ Publish the website in the given URL.
 ```
 gallery.html 
 
+<html>
 <head>
     <meta charset="UTF-8">
     <title>HARRY POTTER</title>
@@ -55,93 +56,14 @@ gallery.html
         <p class="count" id="count-text">1 / 6</p>
     </div>
 
-    <footer class="foot*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    font-family: Arial, sans-serif;
-    background: url("wall.png") ;
-    background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    color: white;
-}
-.box {
-    width: 90%;
-    max-width: 600px;
-    margin-left:460px;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.9);
-    border-radius: 15px;
-    margin-top:68px;
-}
-.heading {
-    font-size: 32px;
-    margin-bottom: 4px;
-    margin-top:5px;
-}
-.small-text {
-    font-size: 12px;
-    margin-bottom: 15px;
-    color: #cdd4ff;
-}
-.image-area img{
-    margin-top:20px;
-    width: 100%;
-    max-width:400px;
-    height: 320px;
-    object-fit: cover;
-    border-radius: 12px;
-    border: 2px solid #ffd4ec;
-}
-.title {
-    margin-top: 10px;
-    font-size: 22px;
-    font-weight: bold;
-}
-.info {
-    margin-top: 4px;
-    font-size: 14px;
-}
-.buttons {
-    margin-top: 15px;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-.buttons button {
-    width: 120px;
-    padding: 8px;
-    font-size: 14px;
-    font-weight: bold;
-    border-radius: 20px;
-    border: none;
-    cursor: pointer;
-    background-color: #ffd4ec;
-    color: #2b1022;
-}
-.count {
-    margin-top: 10px;
-    font-size: 13px;
-    color: #cdd4ff;
-}
-.footer {
-    margin-left:75px;
-    font-size: 13px;
-    padding: 8px;
-    color: #e5e7ff;
-}er">
+    <footer class="footer">
         &copy; PRIYADAARSHINI V - 25013541
     </footer>
 
     <script src="galllery.js"></script>
 </body>
 </html>
+
 ```
 ```
 gallery.css
